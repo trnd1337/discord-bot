@@ -33,7 +33,7 @@ def load_dotenv_file(path: str = ".env") -> None:
 
 load_dotenv_file()
 
-GUILD_ID = int(os.getenv("DISCORD_GUILD_ID", "1452798779848655038"))
+GUILD_ID = int(os.getenv("DISCORD_GUILD_ID"))
 TOKEN = os.getenv("DISCORD_TOKEN")
 IPINFO_TOKEN = os.getenv("IPINFO_TOKEN")
 if TOKEN:
